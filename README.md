@@ -129,7 +129,7 @@ window.location.href = 'ZEPETO://HOME/FEED/UPLOAD/CAMERAROLL'
 ```JavaScript
 import request from '@/utils/request'
 return request({
-  url:`https://openapi.zepeto.cn/graphics/booth/${data.renderData}?targets=${data.hashCode}&service=zaizai&width=420&cdn=off&cache=off`,
+  url:`https://openapi.zepeto.cn/graphics/booth/${data.renderData}?targets=${data.hashCode}&service=zaizai&width=500&cdn=on&cache=off`,
   method: 'post'
 })
 ```
