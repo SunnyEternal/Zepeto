@@ -146,3 +146,4 @@ return request({
 崽崽[可多人][可不同`pose`]渲染成背景透明的图片/模板，`App`支持版本`2.9.2+`。
 `jsBridge`的`demo`地址：
 >https://github.com/SunnyEternal/Zepeto_jsBridge
+
