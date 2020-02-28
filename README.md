@@ -77,7 +77,7 @@ function getUserInfo() {
 ZEPETO://HOME/WEBVIEW?url=[h5链接]
 ```
 
-### 4. 关闭崽崽中`h5`页面，对应`deeplink`：
+### 4. 关闭崽崽中`H5`页面，对应`deeplink`：
 
 ```JavaScript
 <a href="ZEPETO://WEBVIEW/CLOSE">关闭图标<a>
