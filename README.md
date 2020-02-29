@@ -115,6 +115,7 @@ window.location.href = 'ZEPETO://HOME/FEED/UPLOAD/CAMERAROLL'
 
 ### 9. 获取透明背景的崽崽人物形象图
 >请求方式：`POST`
+
 >API：https://openapi.zepeto.cn/graphics/booth/`<PHOTOBOOTH_NAME>`?targets=`<HASHCODES>`&service=zaizai&width=`<WIDTH>`&cdn=`<OPTION>`&cache=`<OPTION>`
 
 >参数列表:
