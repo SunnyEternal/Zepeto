@@ -71,29 +71,29 @@ function getUserInfo() {
 }
 ```
 
-### 3. 在`App`中打开`H5`调试页面，对应`deeplink`：
+### 3. 在`App`中打开`H5`调试页面，对应`deeplink`
 
 ```JavaScript
 ZEPETO://HOME/WEBVIEW?url=[h5链接]
 ```
 
-### 4. 关闭崽崽中`H5`页面，对应`deeplink`：
+### 4. 关闭崽崽中`H5`页面，对应`deeplink`
 
 ```JavaScript
 <a href="ZEPETO://WEBVIEW/CLOSE">关闭图标<a>
 ```
 
-### 5. 去个人中心，对应`deeplink`：
+### 5. 去个人中心，对应`deeplink`
 ```JavaScript
 window.location.href = `ZEPETO://HOME/PROFILE/CARD?${hashCode}`;
 ```
 
-### 6. 去换衣服/试衣间，实际是去商店，对应`deeplink`：
+### 6. 去换衣服/试衣间，实际是去商店，对应`deeplink`
 ```JavaScript
 window.location.href = `ZEPETO://HOME/SHOP/COSTUME?referrer=${referrerUri}`; // 去商店
 ```
 
-### 7. 保存图片到相册，对应`deeplink`：
+### 7. 保存图片到相册，对应`deeplink`
 ```JavaScript
 function saveImage(callback) {
   let base64 = document.getElementById(`photo`).src; // 获取图片base64字符串
