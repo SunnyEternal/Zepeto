@@ -114,11 +114,11 @@ window.location.href = 'ZEPETO://HOME/FEED/UPLOAD/CAMERAROLL'
 >韩国已经开发上传到`Feed`的接口，测试阶段。
 
 ### 9. 获取透明背景的崽崽人物形象图
-**请求方式：**`POST`
+**请求方式**：`POST`
 
-**API：**https://openapi.zepeto.cn/graphics/booth/`<PHOTOBOOTH_NAME>`?targets=`<HASHCODES>`&service=zaizai&width=`<WIDTH>`&cdn=`<OPTION>`&cache=`<OPTION>`
+**API**：https://openapi.zepeto.cn/graphics/booth/`<PHOTOBOOTH_NAME>`?targets=`<HASHCODES>`&service=zaizai&width=`<WIDTH>`&cdn=`<OPTION>`&cache=`<OPTION>`
 
->参数列表:
+**参数列表**:
 
 | 变量 | 描述 |
 | --- | --- |
