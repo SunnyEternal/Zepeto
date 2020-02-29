@@ -44,6 +44,7 @@ function setRootFont() {
 ### 2. 获取崽崽个人信息——`window.ZEPETO`全局属性
 
 ```JavaScript
+// 获取window.ZEPETO有延迟，在ios中比较明显，有偶现获取不到的bug，当前比较稳妥的解决办法，就是延迟获取window.ZEPETO
 function getUserInfo() {
   let timer1 = setInterval(() => {
     if (window.ZEPETO) {
@@ -116,7 +117,10 @@ window.location.href = 'ZEPETO://HOME/FEED/UPLOAD/CAMERAROLL'
 ### 9. 获取透明背景的崽崽人物形象图
 **请求方式**：`POST`
 
-**API**：https://openapi.zepeto.cn/graphics/booth/<PHOTOBOOTH_NAME>?targets=<HASHCODES>&service=zaizai&width=<WIDTH>&cdn=<OPTION>&cache=<OPTION>
+**API**：
+```JavaScript
+https://openapi.zepeto.cn/graphics/booth/<PHOTOBOOTH_NAME>?targets=<HASHCODES>&service=zaizai&width=<WIDTH>&cdn=<OPTION>&cache=<OPTION>
+```
 
 **参数列表**:
 
