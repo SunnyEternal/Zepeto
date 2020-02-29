@@ -24,6 +24,7 @@
 **备注：**
 >不同分辨率的手机，当页面缩放很小时，计算出的根字体字号都小于`10px`。
 
+**方法：**
 ```JavaScript
 function setRootFont() {
   let fontTimer = setInterval(() => {
