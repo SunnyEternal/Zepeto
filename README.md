@@ -74,6 +74,7 @@ function getUserInfo() {
 ### 3. 在`App`中打开`H5`调试页面，对应`deeplink`
 
 ```JavaScript
+// 在App隐藏功能中填入下面地址
 ZEPETO://HOME/WEBVIEW?url=[h5链接]
 ```
 
