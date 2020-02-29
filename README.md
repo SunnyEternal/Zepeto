@@ -2,8 +2,6 @@
 
 ## 崽崽`H5`中常用`Api`和`deeplink`
 
-[TOC]
-
 #### 待完善功能
 
 1. 现只有分享到 `Line`和 `Twitter`的功能。暂无分享到 `WeChart`、`QQ`空间等功能。
@@ -127,10 +125,10 @@ https://openapi.zepeto.cn/graphics/booth/<PHOTOBOOTH_NAME>?targets=<HASHCODES>&s
 
 | 变量 | 描述 |
 | --- | --- |
-| <PHOTOBOOTH_NAME> | `poseId`序列，多个时逗号分隔
-| <HASHCODES> | `hashCode`序列，多个时逗号分隔
-| <WIDTH> | 渲染图的宽度 |
-| <OPTION> | `true` 或 `false` |
+| PHOTOBOOTH_NAME | `poseId`序列，多个时逗号分隔
+| HASHCODES | `hashCode`序列，多个时逗号分隔
+| WIDTH | 渲染图的宽度 |
+| OPTION | `true` 或 `false` |
 
 ```JavaScript
 import request from '@/utils/request'
